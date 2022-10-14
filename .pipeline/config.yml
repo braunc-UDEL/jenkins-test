@@ -3,3 +3,10 @@ general:
 steps:
   mtaBuild:
     buildTarget: 'CF'
+  cloudFoundryDeploy:
+    deployTool: 'mtaDeployPlugin'
+    deployType: 'standard'
+    cloudFoundry:
+      org: 'NS2 Secure Support_btp-dev-nc9lbxje'
+      space: 'CI_CD'
+      credentialsId: 'CF_CREDENTIALSID'
