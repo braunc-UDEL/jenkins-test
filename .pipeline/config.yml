@@ -7,6 +7,7 @@ steps:
     deployTool: 'mtaDeployPlugin'
     deployType: 'standard'
     cloudFoundry:
+      apiEndpoint: 'https://api.cf.cre.scp.sapns2.us'
       org: 'NS2 Secure Support_btp-dev-nc9lbxje'
       space: 'CI_CD'
       credentialsId: 'CF_CREDENTIALSID'
